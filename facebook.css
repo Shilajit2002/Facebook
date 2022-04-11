@@ -89,7 +89,13 @@ body {
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+    transition: background-color 0.5s;
 }
+
+.right .login:hover {
+    background-color: #0362dd;
+}
+
 
 .right .pass {
     width: 90%;
@@ -99,6 +105,11 @@ body {
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+    transition: text-decoration 1ms;
+}
+
+.right .pass:hover {
+    text-decoration: underline;
 }
 
 .right hr {
@@ -121,6 +132,12 @@ body {
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.right .create:hover {
+    background-color: #32971d;
+    ;
 }
 
 p {
@@ -134,6 +151,11 @@ p {
     text-decoration: none;
     font-weight: 600;
     color: black;
+    transition: text-decoration 1ms;
+}
+
+.page:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width:500px) {
@@ -169,7 +191,7 @@ p {
         display: inline-block;
         border: 1px solid #dddfe2;
         color: #a5a6aa;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500;
         font-family: 'Times New Roman', Times, serif
     }
@@ -183,7 +205,7 @@ p {
         display: inline-block;
         border: 1px solid #dddfe2;
         color: #a5a6aa;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500;
         font-family: 'Times New Roman', Times, serif
     }
